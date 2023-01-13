@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="score">Score: <span class="score__number" id="score-number">0</span></h2>
+      <h1 class="title">Guess My Number!</h1>
+      <p class="subtitle">Between 1 and 20</p>
+      <span class="guess">?</span>
+      <p class="message" id="message">Start guessing...</p>
+    </header>
+    <main>
+      <section class="check">
+        <input type="number" class="check__input" id="check-input" value="0">
+        <a class="check__button" id="check-button">Check</a>
+      </section>
+    </main>
+    <!-- Link JS -->
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
